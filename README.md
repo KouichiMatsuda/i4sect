@@ -1,4 +1,4 @@
-# isection
+# i4sect
 
 insertect(x0, y0, x1, y1, x2, y2, x3, y3) calucurate intersection between two line segments and return the coordinate of the intersection.
 
@@ -10,11 +10,11 @@ return value: (x, y) or False
 
 # How to install
 
-pip install isection
+pip install i4sect
 
 # How to use
 ```python:sample
-from isection import *
+from i4sect import *
 p = intersect(0, 0, 15, 0, 0, 5, 10, 5) # paralell
 if p == False:
    print('no intersection.')
